@@ -1,5 +1,4 @@
 import React from "react";
-import "font-awesome/css/font-awesome.min.css";
 
 const NavBar = () => {
   return (
@@ -40,7 +39,7 @@ const NavBar = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Email link"
+                title="Contact me"
                 href="mailto:wesjonke@gmail.com"
               >
                 <i className="fa fa-envelope-square fa-2x"></i>
@@ -78,7 +77,7 @@ const NavBar = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            title="Email link"
+            title="Contact me"
             href="mailto:wesjonke@gmail.com"
           >
             <i className="fa fa-envelope-square fa-2x"></i>
