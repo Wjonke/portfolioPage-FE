@@ -16,6 +16,8 @@ const MainView = props => {
   const [skills, setSkills] = useState();
   const [projects, setProjects] = useState();
 
+  //use this when i get data from mock db or real db
+
   //   useEffect(() => {
   //     GetData("skills").then(res => {
   //       setSkills(res.data.entries);
@@ -26,23 +28,39 @@ const MainView = props => {
   //   }, []);
 
   return (
-    <div class="row">
-      {skills && projects ? (
-        <div class="row">
-          <div class="col s12 l6">
-            <Overview />
-            <Skills skills={skills} />
-          </div>
+    //use this when i get data from mock db or real db
 
-          <div class="col s12 l6">
-            <Projects {...props} projects={projects} />
-          </div>
+    // <div class="row">
+    //   {skills && projects ? (
+    //     <div class="row">
+    //       <div class="col s12 l6">
+    //         <Overview />
+    //         <Skills skills={skills} />
+    //       </div>
+
+    //       <div class="col s12 l6">
+    //         <Projects {...props} projects={projects} />
+    //       </div>
+    //     </div>
+    //   ) : (
+    //     <div class="section">
+    //       <Spinner />
+    //     </div>
+    //   )}
+    // </div>
+
+    //place holder until data actually comes in
+    <div>
+      <div class="row">
+        <div class="col s12 l6">
+          <Overview />
+          <Skills skills={skills} />
         </div>
-      ) : (
-        <div class="section">
-          <Spinner />
+
+        <div class="col s12 l6">
+          <Projects {...props} projects={projects} />
         </div>
-      )}
+      </div>
     </div>
   );
 };

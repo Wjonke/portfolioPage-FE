@@ -7,7 +7,7 @@ import Spinner from "../../utility/Spinner";
 
 const ProjectContainer = () => {
   return (
-    <div>
+    <div class="container center">
       <Spinner />
     </div>
   );

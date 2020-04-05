@@ -3,7 +3,7 @@ import Spinner from "../../utility/Spinner";
 
 const SkillContainer = () => {
   return (
-    <div>
+    <div class="container center">
       <Spinner />
     </div>
   );

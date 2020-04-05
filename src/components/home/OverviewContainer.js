@@ -4,7 +4,7 @@ import Spinner from "../../utility/Spinner";
 
 const OverviewContainer = () => {
   return (
-    <div>
+    <div class="container center">
       <Spinner />
     </div>
   );
