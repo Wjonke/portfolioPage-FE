@@ -26,20 +26,22 @@ const MainView = props => {
   //   }, []);
 
   return (
-    <div>
+    <div class="row">
       {skills && projects ? (
-        <div>
-          <div>
+        <div class="row">
+          <div class="col s12 l6">
             <Overview />
             <Skills skills={skills} />
           </div>
 
-          <div>
+          <div class="col s12 l6">
             <Projects {...props} projects={projects} />
           </div>
         </div>
       ) : (
-        <Spinner />
+        <div class="section">
+          <Spinner />
+        </div>
       )}
     </div>
   );
