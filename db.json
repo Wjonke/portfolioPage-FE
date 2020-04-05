@@ -1,0 +1,15 @@
+{
+  "overview": { "id": 1, "message": "Overview text!!!" },
+
+  "skills": [
+    { "id": 1, "entry": "testSkill1" },
+    { "id": 2, "entry": "testSkill2" },
+    { "id": 3, "entry": "testSkill3" }
+  ],
+
+  "projects": [
+    { "id": 1, "entry": "testProject1" },
+    { "id": 2, "entry": "testProject2" },
+    { "id": 3, "entry": "testProject3" }
+  ]
+}

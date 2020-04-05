@@ -2,26 +2,27 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="page-footer blue">
-      <div class="container">
-        <div class="row center valign-wrapper">
-          <div class="col l6 s12 ">
-            <h5 class="white-text center">
+    <footer className="page-footer blue">
+      <div className="container">
+        <div className="row center valign-wrapper">
+          <div className="col l6 s12 ">
+            <h5 className="white-text center">
               Full-Stack Web Developer | Experienced Senior Project Manager
             </h5>
 
-            <p class="center grey-text text-lighten-3">
+            <p className="center grey-text text-lighten-3">
               "When action grows unprofitable, gather information. When
-              information grows unprofitable, sleep." <p>-Ursula K. Le Guin</p>
+              information grows unprofitable, sleep."
             </p>
+            <p>-Ursula K. Le Guin</p>
           </div>
 
-          <div class="col l6  s12 ">
+          <div className="col l6  s12 ">
             <ul>
               <div>
                 <li>
                   <a
-                    class="grey-text text-lighten-3"
+                    className="grey-text text-lighten-3"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Github link"
@@ -35,7 +36,7 @@ const Footer = () => {
               <div>
                 <li>
                   <a
-                    class="grey-text text-lighten-3"
+                    className="grey-text text-lighten-3"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="LinkedIn link"
@@ -49,7 +50,7 @@ const Footer = () => {
               <div>
                 <li>
                   <a
-                    class="grey-text text-lighten-3"
+                    className="grey-text text-lighten-3"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Contact me"
@@ -64,8 +65,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="footer-copyright center">
-        <div class="container">© 2020 Copyright Wes Jonke</div>
+      <div className="footer-copyright center">
+        <div className="container">© 2020 Copyright Wes Jonke</div>
       </div>
     </footer>
   );

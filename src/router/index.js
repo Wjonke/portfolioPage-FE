@@ -15,7 +15,7 @@ export default function Routes() {
         }}
       />
 
-      <Route exact path="/project/:id" component={ProjectView} />
+      {/* <Route exact path="/project/:id" component={ProjectView} /> */}
     </div>
   );
 }

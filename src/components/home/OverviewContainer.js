@@ -1,10 +1,10 @@
-//short overview about me and introduction
-import React from "react";
+import React, { useEffect } from "react";
+import Overview from "./Overview";
 import Spinner from "../../utility/Spinner";
 
 const OverviewContainer = () => {
   return (
-    <div class="container center">
+    <div className="center">
       <Spinner />
     </div>
   );
