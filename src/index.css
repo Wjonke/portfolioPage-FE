@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-content: stretch;
+}
+
+main {
+  /* flex: 1 0 auto; */
+  align-content: stretch;
+}

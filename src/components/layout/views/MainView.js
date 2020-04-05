@@ -12,18 +12,18 @@ import Skills from "../../home/SkillContainer";
 import Spinner from "../../../utility/Spinner";
 import GetData from "../../../utility/GetData";
 
-const MainView = () => {
+const MainView = props => {
   const [skills, setSkills] = useState();
   const [projects, setProjects] = useState();
 
-  useEffect(() => {
-    GetData("skills").then(res => {
-      setSkills(res.data.entries);
-    });
-    GetData("projects").then(res => {
-      setProjects(res.data.entries);
-    });
-  }, []);
+  //   useEffect(() => {
+  //     GetData("skills").then(res => {
+  //       setSkills(res.data.entries);
+  //     });
+  //     GetData("projects").then(res => {
+  //       setProjects(res.data.entries);
+  //     });
+  //   }, []);
 
   return (
     <div>
