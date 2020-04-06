@@ -8,8 +8,8 @@ import getData from "../../../utility/GetData";
 import Spinner from "../../../utility/Spinner";
 
 const MainView = (props) => {
-  const [skills, setSkills] = useState([]);
-  const [projects, setProjects] = useState([]);
+  const [skills, setSkills] = useState();
+  const [projects, setProjects] = useState();
 
   useEffect(() => {
     getData("skills").then((res) => {
