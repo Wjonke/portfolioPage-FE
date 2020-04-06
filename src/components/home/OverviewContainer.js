@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Overview from "./Overview";
 import Spinner from "../../utility/Spinner";
 

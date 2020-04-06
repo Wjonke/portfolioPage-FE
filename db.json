@@ -1,6 +1,4 @@
 {
-  "overview": { "id": 1, "message": "Overview text!!!" },
-
   "skills": [
     { "id": 1, "entry": "testSkill1" },
     { "id": 2, "entry": "testSkill2" },
