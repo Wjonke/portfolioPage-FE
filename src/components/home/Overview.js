@@ -2,7 +2,8 @@ import React from "react";
 
 const Overview = () => {
   return (
-    <div>
+    <div className="container left-align">
+      <h5>Full-Stack Web Developer | Experienced Senior Project Manager</h5>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. In consectetur
         officiis perferendis, aliquid itaque quaerat totam ipsa aperiam corporis
