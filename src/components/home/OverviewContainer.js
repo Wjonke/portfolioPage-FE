@@ -3,19 +3,16 @@ import Overview from "./Overview";
 import Spinner from "../../utility/Spinner";
 
 const OverviewContainer = () => {
-  if (Overview) {
-    return (
-      <div className="center">
-        <Overview />
+  return (
+    <div style={{ border: "1px solid black" }}>
+      <div style={{ border: "1px solid red" }}>
+        <div>
+          <h5>Full-Stack Web Developer | Experienced Senior Project Manager</h5>
+        </div>
       </div>
-    );
-  } else {
-    return (
-      <div className="center">
-        <Spinner />
-      </div>
-    );
-  }
+      <Overview />
+    </div>
+  );
 };
 
 export default OverviewContainer;

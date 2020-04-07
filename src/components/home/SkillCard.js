@@ -1,25 +1,16 @@
 import React from "react";
 
 const SkillCard = () => {
-  return <div></div>;
+  return (
+    <div className="card ">
+      <div className="card-image">
+        <img src="images/sample-1.jpg" alt="test pic" />
+      </div>
+      <div className="card-content center">
+        <p style={{ border: "1px solid black" }}>Sample Skill</p>
+      </div>
+    </div>
+  );
 };
 
 export default SkillCard;
-
-// export default function SkillCard({ skill }) {
-//   return (
-//     <div className="skill-block">
-//       <SkillContainer title={skill.Title}>
-//         <SkillBubble>
-//           <h3>{skill.Title}</h3>
-//           <div className="bubble-content">{skill.Description}</div>
-//         </SkillBubble>
-
-//         <SkillImage>
-//           <img src={`https://api.briantastic.com/${skill.Icon.path}`} alt="" />
-//         </SkillImage>
-//           <div className="title">{skill.Title}</div>
-//       </SkillContainer>
-//     </div>
-//   );
-// }

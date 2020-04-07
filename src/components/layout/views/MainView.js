@@ -24,8 +24,8 @@ const MainView = (props) => {
     });
   }, []);
 
-  console.log("skills from state", skills);
-  console.log("projects from state", projects);
+  // console.log("skills from state", skills);
+  // console.log("projects from state", projects);
 
   return (
     <div className="row">
