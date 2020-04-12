@@ -1,13 +1,15 @@
 import React from "react";
 
-const Project = () => {
+const Project = (props) => {
   return (
-    <div className="card small">
-      <div className="card-image">
-        <img src="images/sample-1.jpg" alt="test pic" />
-      </div>
-      <div className="card-content center">
-        <p>Sample Skill</p>
+    <div className="card ">
+      <div className="card-content left-align">
+        <p>
+          Sample Project, this will be an onHover changing link to the project
+          view, should include :<li>picture</li>
+          <li>title</li>
+          <li> role</li>
+        </p>
       </div>
     </div>
   );

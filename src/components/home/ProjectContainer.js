@@ -1,14 +1,20 @@
 import React from "react";
-import Spinner from "../../utility/Spinner";
+import ProjectCard from "./ProjectCard";
 
-const ProjectContainer = () => {
+const ProjectContainer = (props) => {
   return (
-    <div style={{ border: "1px solid black" }}>
-      <div style={{ border: "1px solid red" }}>
-        <h5>Projects</h5>
-      </div>
+    <div className="center" style={{ marginTop: "-5px" }}>
+      <h5>Projects</h5>
 
-      <Spinner />
+      {/* map through skills and put out a card for each */}
+
+      {props.projects.map((project) => {
+        return (
+          <div className=" col s6 m4 l6 " key={project.id}>
+            <ProjectCard project={project} />
+          </div>
+        );
+      })}
     </div>
   );
 };

@@ -1,13 +1,18 @@
 import React from "react";
 
-const SkillCard = () => {
+const SkillCard = (props) => {
   return (
     <div className="card ">
       <div className="card-image">
         <img src="images/sample-1.jpg" alt="test pic" />
       </div>
       <div className="card-content center">
-        <p style={{ border: "1px solid black" }}>Sample Skill</p>
+        <p className="left-align">
+          Sample Skill, includes:
+          <li>picture</li>
+          <li> title</li>
+          <li>Content: {props.skill.entry}</li>
+        </p>
       </div>
     </div>
   );

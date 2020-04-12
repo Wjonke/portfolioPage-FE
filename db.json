@@ -1,14 +1,14 @@
 {
   "skills": [
     { "id": 1, "entry": "testSkill" },
-    { "id": 2, "entry": "testSkill" },
-    { "id": 3, "entry": "testSkill" },
-    { "id": 4, "entry": "testSkill" },
-    { "id": 5, "entry": "testSkill" },
-    { "id": 6, "entry": "testSkill" },
-    { "id": 7, "entry": "testSkill" },
-    { "id": 8, "entry": "testSkill" },
-    { "id": 9, "entry": "testSkill" }
+    { "id": 2, "entry": "testSkill1" },
+    { "id": 3, "entry": "testSkill2" },
+    { "id": 4, "entry": "testSkill3" },
+    { "id": 5, "entry": "testSkill4" },
+    { "id": 6, "entry": "testSkill5" },
+    { "id": 7, "entry": "testSkill6" },
+    { "id": 8, "entry": "testSkill7" },
+    { "id": 9, "entry": "testSkill8" }
   ],
 
   "projects": [
@@ -17,9 +17,6 @@
     { "id": 3, "entry": "testProject" },
     { "id": 4, "entry": "testProject" },
     { "id": 5, "entry": "testProject" },
-    { "id": 6, "entry": "testProject" },
-    { "id": 7, "entry": "testProject" },
-    { "id": 8, "entry": "testProject" },
-    { "id": 9, "entry": "testProject" }
+    { "id": 6, "entry": "testProject" }
   ]
 }

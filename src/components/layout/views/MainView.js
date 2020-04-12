@@ -29,22 +29,20 @@ const MainView = (props) => {
 
   return (
     <div className="row">
-      {skills ? (
-        <div className=" col s12 l6">
-          <OverviewContainer />
-          <div className="divider"></div>
-          {/* pass skills state down to child */}
-          <SkillContainer skills={skills} />
-        </div>
-      ) : (
-        <Spinner />
-      )}
+      {skills && projects ? (
+        <span>
+          <div className=" col s12 l6">
+            <OverviewContainer />
+            <div className="divider"></div>
+            {/* pass skills state down to child */}
+            <SkillContainer skills={skills} />
+          </div>
 
-      {projects ? (
-        <div className=" col s12 l6">
-          {/* pass projects state down to child and spread in props*/}
-          <ProjectContainer {...props} projects={projects} />
-        </div>
+          <div className=" col s12 l6">
+            {/* pass projects state down to child and spread in props*/}
+            <ProjectContainer {...props} projects={projects} />
+          </div>
+        </span>
       ) : (
         <Spinner />
       )}
