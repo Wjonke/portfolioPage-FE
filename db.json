@@ -1,22 +1,22 @@
 {
   "skills": [
-    { "id": 1, "entry": "testSkill" },
-    { "id": 2, "entry": "testSkill1" },
-    { "id": 3, "entry": "testSkill2" },
-    { "id": 4, "entry": "testSkill3" },
-    { "id": 5, "entry": "testSkill4" },
-    { "id": 6, "entry": "testSkill5" },
-    { "id": 7, "entry": "testSkill6" },
-    { "id": 8, "entry": "testSkill7" },
-    { "id": 9, "entry": "testSkill8" }
+    { "id": 1, "title": "testSkill0", "img": "JS.jpg" },
+    { "id": 2, "title": "testSkill1", "img": "JS" },
+    { "id": 3, "title": "testSkill2", "img": "JS" },
+    { "id": 4, "title": "testSkill3", "img": "JS" },
+    { "id": 5, "title": "testSkill4", "img": "JS" },
+    { "id": 6, "title": "testSkill5", "img": "JS" },
+    { "id": 7, "title": "testSkill6", "img": "JS" },
+    { "id": 8, "title": "testSkill7", "img": "JS" },
+    { "id": 9, "title": "testSkill8", "img": "JS" }
   ],
 
   "projects": [
-    { "id": 1, "entry": "testProject" },
-    { "id": 2, "entry": "testProject" },
-    { "id": 3, "entry": "testProject" },
-    { "id": 4, "entry": "testProject" },
-    { "id": 5, "entry": "testProject" },
-    { "id": 6, "entry": "testProject" }
+    { "id": 1, "title": "testProject" },
+    { "id": 2, "title": "testProject" },
+    { "id": 3, "title": "testProject" },
+    { "id": 4, "title": "testProject" },
+    { "id": 5, "title": "testProject" },
+    { "id": 6, "title": "testProject" }
   ]
 }
