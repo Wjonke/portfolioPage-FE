@@ -13,19 +13,19 @@ const MainView = (props) => {
 
   useEffect(() => {
     getData("skills").then((res) => {
-      // console.log("skills from getData --->", res.data);
+      console.log("skills from getData --->", res.data);
       setSkills(res.data);
     });
 
     getData("projects").then((res) => {
-      // console.log("projects from getData---->", res.data);
+      console.log("projects from getData---->", res.data);
 
       setProjects(res.data);
     });
   }, []);
 
-  // console.log("skills from state", skills);
-  // console.log("projects from state", projects);
+  console.log("skills from state", skills);
+  console.log("projects from state", projects);
 
   return (
     <div className="row">
