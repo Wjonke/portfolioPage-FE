@@ -1,15 +1,22 @@
 {
-  "overview": { "id": 1, "message": "Overview text!!!" },
-
   "skills": [
-    { "id": 1, "entry": "testSkill1" },
-    { "id": 2, "entry": "testSkill2" },
-    { "id": 3, "entry": "testSkill3" }
+    { "id": 1, "title": "testSkill0", "img": "JS.jpg" },
+    { "id": 2, "title": "testSkill1", "img": "JS" },
+    { "id": 3, "title": "testSkill2", "img": "JS" },
+    { "id": 4, "title": "testSkill3", "img": "JS" },
+    { "id": 5, "title": "testSkill4", "img": "JS" },
+    { "id": 6, "title": "testSkill5", "img": "JS" },
+    { "id": 7, "title": "testSkill6", "img": "JS" },
+    { "id": 8, "title": "testSkill7", "img": "JS" },
+    { "id": 9, "title": "testSkill8", "img": "JS" }
   ],
 
   "projects": [
-    { "id": 1, "entry": "testProject1" },
-    { "id": 2, "entry": "testProject2" },
-    { "id": 3, "entry": "testProject3" }
+    { "id": 1, "title": "testProject" },
+    { "id": 2, "title": "testProject" },
+    { "id": 3, "title": "testProject" },
+    { "id": 4, "title": "testProject" },
+    { "id": 5, "title": "testProject" },
+    { "id": 6, "title": "testProject" }
   ]
 }

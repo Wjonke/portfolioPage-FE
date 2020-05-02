@@ -7,7 +7,8 @@ const Footer = () => {
         <div className="row center valign-wrapper">
           <div className="col l6 s12 ">
             <h5 className="white-text center">
-              Full-Stack Web Developer | Experienced Senior Project Manager
+              Please feel free to reach out to me. References, resume and
+              additional information available upon request.
             </h5>
 
             <p className="center grey-text text-lighten-3">
