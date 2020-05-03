@@ -1,13 +1,14 @@
 import React from "react";
+import styled from "styled-components";
 
 const NavBar = () => {
   return (
     <div>
       <nav>
         <div className="nav-wrapper blue">
-          <span className="brand-logo " style={{ paddingLeft: ".5em" }}>
+          <Span className="brand-logo " style={{ paddingLeft: ".5em" }}>
             Wes Jonke
-          </span>
+          </Span>
 
           {/* for mobile screen menu */}
           <a href="#!" data-target="mobile-demo" className="sidenav-trigger">
@@ -89,5 +90,7 @@ const NavBar = () => {
     </div>
   );
 };
-
+const Span = styled.span`
+  font-family: "Ubuntu";
+`;
 export default NavBar;

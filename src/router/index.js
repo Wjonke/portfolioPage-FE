@@ -10,12 +10,12 @@ export default function Routes() {
       <Route
         exact
         path="/"
-        render={props => {
+        render={(props) => {
           return <MainView {...props} />;
         }}
       />
 
-      {/* <Route exact path="/project/:id" component={ProjectView} /> */}
+      <Route path="/project/:id" component={ProjectView} />
     </div>
   );
 }
