@@ -3,14 +3,45 @@ import styled from "styled-components";
 
 const Project = (props) => {
   return (
-    <ProjectStyle className="card ">
-      <div className="card-content left-align">
-        <P>
-          Sample Project, this will be an onHover changing link to the project
-          view, should include :<Li>picture</Li>
-          <Li>title</Li>
-          <Li> role</Li>
-        </P>
+    <ProjectStyle>
+      <div className="card">
+        <div className="card-image waves-effect waves-block waves-light">
+          <img
+            className="activator"
+            src="https://res.cloudinary.com/wjonke/image/upload/v1587408921/sample.jpg"
+            alt=""
+          />
+        </div>
+        <div className="card-content">
+          <span className="card-title activator grey-text text-darken-4">
+            Links<i className="material-icons right">more_vert</i>
+          </span>
+        </div>
+
+        <div className="card-reveal col s12 ">
+          <span className="card-title grey-text text-darken-4">
+            <i className="material-icons right">close</i>
+          </span>
+          <span>
+            <Div className="center">
+              <StyledLink className="card" href={props.project.code_url}>
+                FE Code
+              </StyledLink>
+
+              <StyledLink className="card" href={props.project.deployed_url}>
+                Site
+              </StyledLink>
+
+              <StyledLink className="card" href={props.project.code_url}>
+                BE Code
+              </StyledLink>
+
+              <StyledLink className="card" href={props.project.deployed_url}>
+                Site
+              </StyledLink>
+            </Div>
+          </span>
+        </div>
       </div>
     </ProjectStyle>
   );
@@ -19,18 +50,33 @@ const Project = (props) => {
 const ProjectStyle = styled.div`
   padding: 3%;
   &:hover {
+    /* color: dodgerblue; */
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    font-family: "Roboto", sans-serif;
+  }
+`;
+
+const Div = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+`;
+
+const StyledLink = styled.a`
+  color: black;
+  text-decoration: none;
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid black;
+
+  &:hover {
+    border: 1px solid dodgerblue;
     color: dodgerblue;
     transition: 0.3s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
-    font-family: "Roboto, serif";
-  }
-`;
-const Li = styled.li`
-  font-family: "Roboto, serif";
-  }
-`;
-const P = styled.p`
-  font-family: "Roboto, serif";
   }
 `;
 export default Project;

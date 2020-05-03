@@ -21,7 +21,7 @@ const ProjectContainer = (props) => {
   );
 };
 const H5 = styled.h5`
-  font-family: "Ubuntu";
+  font-family: "Ubuntu", sans-serif;
 `;
 
 export default ProjectContainer;
