@@ -13,8 +13,16 @@ const Project = (props) => {
           />
         </div>
         <div className="card-content">
+          <span className="left-align">
+            <h5>{props.project.name}</h5>
+            <ul>
+              <li>{props.project.techStack}</li>
+              <li>{props.project.role}</li>
+              <li>{props.project.description}</li>
+            </ul>
+          </span>
           <span className="card-title activator grey-text text-darken-4">
-            Links<i className="material-icons right">more_vert</i>
+            Click for more<i className="material-icons right">more_vert</i>
           </span>
         </div>
 
