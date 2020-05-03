@@ -16,6 +16,6 @@ const OverviewContainer = () => {
   );
 };
 const H4 = styled.h4`
-  font-family: "Ubuntu";
+  font-family: "Ubuntu", sans-serif;
 `;
 export default OverviewContainer;

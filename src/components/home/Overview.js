@@ -14,6 +14,6 @@ const Overview = () => {
   );
 };
 const P = styled.p`
-  font-family: "Roboto, serif";
+  font-family: "Roboto", sans-serif;
 `;
 export default Overview;
