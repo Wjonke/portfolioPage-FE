@@ -1,6 +1,7 @@
 {
   "name": "portfolio-fe",
   "version": "0.1.0",
+  "homepage": "wesjonke.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.13.0",
