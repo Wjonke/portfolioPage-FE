@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const SkillCard = (props) => {
-  console.log(props.skill);
+  //   console.log(props.skill);
   return (
     <SkillStyle
       className="card small"
