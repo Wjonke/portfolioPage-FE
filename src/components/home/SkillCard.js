@@ -34,9 +34,11 @@ const SkillCard = (props) => {
 
 const SkillStyle = styled.div`
   padding: 3%;
+  /* max-height: 200px; */
+
   &:hover {
     color: dodgerblue;
-    transition: 0.3s;
+    transition: 0.4s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
   }
 `;

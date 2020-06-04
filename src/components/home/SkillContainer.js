@@ -5,26 +5,30 @@ import styled from "styled-components";
 
 const SkillContainer = (props) => {
   return (
-    <div>
-      <div className="center">
-        <H5>Skills</H5>
-      </div>
+    <div className="center">
       <Zoom>
-        {/* map through skills and put out a card for each */}
+        <H5>Skills</H5>
+        <Div>
+          {/* map through skills and put out a card for each */}
 
-        {props.skills.map((skill) => {
-          return (
-            <div className=" col s4 m3 l3 " key={skill.id}>
-              <SkillCard skill={skill} />
-            </div>
-          );
-        })}
+          {props.skills.map((skill) => {
+            return (
+              <div className=" col s4 m3 l3 " key={skill.id}>
+                <SkillCard skill={skill} />
+              </div>
+            );
+          })}
+        </Div>
       </Zoom>
     </div>
   );
 };
 const H5 = styled.h5`
   font-family: "Ubuntu";
+`;
+
+const Div = styled.div`
+  margin-left: 2em;
 `;
 
 export default SkillContainer;

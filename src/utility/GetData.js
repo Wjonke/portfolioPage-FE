@@ -5,7 +5,7 @@ const getData = async (table) => {
     `https://wjonke-portfolio.herokuapp.com/api/${table}`
   );
 
-  // console.log("this is the result of getData --->", result);
+  console.log("this is the result of getData --->", result);
   return result;
 };
 export default getData;
