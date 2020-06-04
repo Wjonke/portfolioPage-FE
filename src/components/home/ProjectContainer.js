@@ -6,8 +6,8 @@ import styled from "styled-components";
 const ProjectContainer = (props) => {
   return (
     <div className="center" style={{ marginTop: "-5px" }}>
-      <H5>Projects</H5>
       <Zoom>
+        <H5>Projects</H5>
         {/* map through skills and put out a card for each */}
         {props.projects.map((project) => {
           return (

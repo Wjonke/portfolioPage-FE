@@ -16,9 +16,20 @@ const Project = (props) => {
           <span className="left-align">
             <h5>{props.project.name}</h5>
             <ul>
-              <li>{props.project.techStack}</li>
-              <li>{props.project.role}</li>
-              <li>{props.project.description}</li>
+              <li>
+                <Strong>TechStack: </Strong>
+                {props.project.techStack}
+              </li>
+              <br></br>
+              <li>
+                <Strong>My Role: </Strong>
+                {props.project.role}
+              </li>
+              <br></br>
+              <li>
+                <Strong>Description: </Strong>
+                {props.project.description}
+              </li>
             </ul>
           </span>
           <span className="card-title activator grey-text text-darken-4">
@@ -59,10 +70,14 @@ const ProjectStyle = styled.div`
   padding: 3%;
   &:hover {
     /* color: dodgerblue; */
-    transition: 0.3s;
+    transition: 0.4s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
     font-family: "Roboto", sans-serif;
   }
+`;
+
+const Strong = styled.p`
+  font-weight: 900;
 `;
 
 const Div = styled.div`
@@ -83,7 +98,7 @@ const StyledLink = styled.a`
   &:hover {
     border: 1px solid dodgerblue;
     color: dodgerblue;
-    transition: 0.3s;
+    transition: 0.4s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
   }
 `;
