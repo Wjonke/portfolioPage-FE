@@ -6,11 +6,7 @@ const Project = (props) => {
     <ProjectStyle>
       <div className="card">
         <div className="card-image waves-effect waves-block waves-light">
-          <img
-            className="activator"
-            src="https://res.cloudinary.com/wjonke/image/upload/v1587408921/sample.jpg"
-            alt=""
-          />
+          <img className="activator" src={props.project.img_url} alt="" />
         </div>
         <div className="card-content">
           <span className="left-align">
