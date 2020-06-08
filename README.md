@@ -6,7 +6,7 @@
 
 ### Description
 
-#### This app was developed as my own personal portfolio site. I created a backend for it to hold project data just as an additional exercise. I debated using the github api and a screenshot api, but for this iteration I decided to build out my own API. That can be found [here](https://github.com/Wjonke/PortfolioBackend 'Portfolio backend'). Its a constand work in progress so I would love to hear some feedback!
+#### This app was developed as my own personal portfolio site. I created a backend for it to hold project data just as an additional exercise. I debated using the github api and a screenshot api, but for this iteration I decided to build out my own API. That can be found [here](https://github.com/Wjonke/PortfolioBackend 'Portfolio backend'). Its a constant work in progress so I would love to hear some feedback!
 
 
 ### Tech Stack
