@@ -1,6 +1,6 @@
 # Project Documentation, Welcome!
 
-### Project deployed at [Netlify](https://github-finder-class-components.netlify.app/ 'Github Finder') <br>
+### Project deployed at [My portfolio site](https://www.wesjonke.com 'Wes Jonke Portfolio') <br>
 
 ## A little about the project
 
