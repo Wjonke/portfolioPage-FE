@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import styled from "styled-components";
 
 import OverviewContainer from "../../home/OverviewContainer";
 import ProjectContainer from "../../home/ProjectContainer";
@@ -28,7 +29,7 @@ const MainView = (props) => {
   //console.log("projects from state", projects);
 
   return (
-    <div className="row">
+    <Div className="row">
       {skills && projects ? (
         <span>
           <div className=" col s12 l6">
@@ -44,10 +45,16 @@ const MainView = (props) => {
           </div>
         </span>
       ) : (
-        <Spinner />
+        <div className="center">
+          <Spinner />
+        </div>
       )}
-    </div>
+    </Div>
   );
 };
+
+const Div = styled.div`
+  background-color: #f5f5f5;
+`;
 
 export default MainView;

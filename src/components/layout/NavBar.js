@@ -53,8 +53,8 @@ const NavBar = () => {
       </nav>
 
       {/* for mobile screen menu */}
-      <ul className="sidenav" id="mobile-demo">
-        <li>
+      <Ul className="sidenav" id="mobile-demo">
+        <Li>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -63,9 +63,9 @@ const NavBar = () => {
           >
             <i className="fa fa-github fa-2x"></i>
           </a>
-        </li>
+        </Li>
 
-        <li>
+        <Li>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -74,9 +74,9 @@ const NavBar = () => {
           >
             <i className="fa fa-linkedin fa-2x"></i>
           </a>
-        </li>
+        </Li>
 
-        <li>
+        <Li>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -85,12 +85,52 @@ const NavBar = () => {
           >
             <i className="fa fa-envelope-square fa-2x"></i>
           </a>
-        </li>
-      </ul>
+        </Li>
+        <Li>
+          <StyledLink title="Projects" href="#projects">
+            Jump to Projects
+          </StyledLink>
+
+          <StyledLink title="Skills" href="#skills">
+            Jump to Skills
+          </StyledLink>
+        </Li>
+      </Ul>
     </div>
   );
 };
 const Span = styled.span`
   font-family: "Ubuntu";
+`;
+const P = styled.p`
+  display: flex;
+
+  align-items: center;
+`;
+const Ul = styled.ul`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #42a5f5;
+`;
+const Li = styled.li`
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+`;
+const StyledLink = styled.a`
+  color: black;
+  text-decoration: none;
+  margin: 1%;
+
+  border: 1px solid lightGray;
+
+  &:hover {
+    border: 1px solid dodgerBlue;
+    color: white;
+    transition: 0.4s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+  }
 `;
 export default NavBar;
