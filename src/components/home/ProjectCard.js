@@ -62,7 +62,7 @@ const Project = (props) => {
                 {props.project.role}
               </span>
               <span>
-                <Strong>TechStack: </Strong>
+                <Strong>Tech Stack: </Strong>
                 {props.project.techStack}
               </span>
             </Div>
