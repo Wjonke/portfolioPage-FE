@@ -6,7 +6,10 @@ import ProjectView from "../components/layout/views/ProjectView";
 
 export default function Routes() {
   return (
-    <div>
+    <div
+      className="center"
+      style={{ width: "100%", border: "1px solid black" }}
+    >
       <Route
         exact
         path="/"

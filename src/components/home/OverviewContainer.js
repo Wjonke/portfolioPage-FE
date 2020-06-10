@@ -10,7 +10,6 @@ const OverviewContainer = () => {
           <H4>Full-Stack Web Developer | Experienced Senior Project Manager</H4>
         </div>
       </div>
-
       <Overview />
     </div>
   );

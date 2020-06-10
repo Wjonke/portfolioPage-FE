@@ -7,11 +7,11 @@ const SkillCard = (props) => {
     <SkillStyle
       className="card small"
       style={{
-        width: "100px",
-        height: "240px",
+        width: "100%",
+        height: "350px",
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
+        justifyContent: "space-evenly",
         alignItems: "center",
       }}
     >
@@ -44,7 +44,7 @@ const SkillStyle = styled.div`
 `;
 
 const FontStyle = styled.p`
-  font-family: "Roboto";
+  font-family: "Ubuntu";
   }
 `;
 

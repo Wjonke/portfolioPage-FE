@@ -5,10 +5,11 @@ const NavBar = () => {
   return (
     <div>
       <nav>
-        <div className="nav-wrapper blue">
-          <Span className="brand-logo " style={{ paddingLeft: ".5em" }}>
-            Wes Jonke
-          </Span>
+        <div
+          className="nav-wrapper blue"
+          style={{ paddingLeft: "3em", paddingRight: "3em" }}
+        >
+          <Span className="brand-logo ">Wes Jonke</Span>
 
           {/* for mobile screen menu */}
           <a href="#!" data-target="mobile-demo" className="sidenav-trigger">
