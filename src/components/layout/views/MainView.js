@@ -36,12 +36,7 @@ const MainView = (props) => {
             <OverviewContainer />
             <div className="divider"></div>
           </div>
-          <div
-            className=" col s12 l6 "
-            style={{
-              border: "1px solid black",
-            }}
-          >
+          <div className=" col s12 l6 ">
             {/* pass skills state down to child */}
             <SkillContainer skills={skills} />
           </div>
