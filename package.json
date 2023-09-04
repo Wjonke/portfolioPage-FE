@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "engines": {
-        "node": "15.10"
+        "node": "14.13.1"
     },
     "dependencies": {
         "@babel/helper-define-map": "^7.18.6",
