@@ -25,7 +25,7 @@ const MainView = (props) => {
 						// margin: '1em',
 						justifyContent: 'center',
 						alignItems: 'center',
-						border: '1px solid green',
+						// border: '1px solid green',
 					}}
 				>
 					{/* pass skills state down to child */}

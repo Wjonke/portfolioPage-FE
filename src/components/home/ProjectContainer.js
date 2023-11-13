@@ -12,7 +12,7 @@ const ProjectContainer = (props) => {
 				{/* map through skills and put out a card for each */}
 				{props.projects.map((project) => {
 					return (
-						<div className=' col s12 m4 l6 ' key={project.id}>
+						<div className=' col s12 m8 l6 xl3 ' key={project.id}>
 							<ProjectCard project={project} />
 						</div>
 					);

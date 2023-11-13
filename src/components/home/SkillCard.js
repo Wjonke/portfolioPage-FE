@@ -43,15 +43,14 @@ const SkillCard = (props) => {
 					}}
 				/>
 			</div>
-			<div className='card-content center'>
-				<FontStyle>{props.skill.name}</FontStyle>
-			</div>
+
+			<FontStyle>{props.skill.name}</FontStyle>
 		</SkillStyle>
 	);
 };
 
 const SkillStyle = styled.div`
-	justify-content:space-around
+	/* justify-content:space-around */
 	/* padding: 3%; */
 	/* max-height: 200px; */
 
@@ -65,6 +64,7 @@ const SkillStyle = styled.div`
 const FontStyle = styled.p`
 	 {
 		font-family: 'Ubuntu';
+		white-space: nowrap;
 	}
 `;
 

@@ -10,12 +10,13 @@ const SkillContainer = (props) => {
 			// className='center-align'
 		>
 			<div
+				className=' col s4 m3 l2 xl2'
 				style={{
 					width: '100%',
 					minHeight: '200px',
 					// display: 'block',
 					// justifyContent: 'center',
-					// border: '1px solid red',
+					border: '1px solid red',
 				}}
 			>
 				<H5>Skills</H5>
@@ -23,7 +24,7 @@ const SkillContainer = (props) => {
 
 				{props.skills.map((skill) => {
 					return (
-						<div className=' col  '>
+						<div className=' col s4 m3 l2 xl2'>
 							<SkillCard skill={skill} key={skill.id} />
 						</div>
 					);
