@@ -2,9 +2,6 @@
     "name": "portfolio-fe",
     "version": "0.1.0",
     "private": true,
-    "engines": {
-        "node": "^14.15.0"
-    },
     "dependencies": {
         "@babel/helper-define-map": "^7.18.6",
         "@fortawesome/fontawesome-free": "5.13.0",
@@ -27,7 +24,8 @@
         "react-reveal": "^1.2.2",
         "react-router-dom": "^5.1.2",
         "react-scripts": "3.4.1",
-        "styled-components": "^5.1.0"
+        "styled-components": "^5.1.0",
+        "yarn": "^1.22.19"
     },
     "scripts": {
         "start": "react-scripts start",
