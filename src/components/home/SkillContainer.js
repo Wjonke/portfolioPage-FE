@@ -16,7 +16,7 @@ const SkillContainer = (props) => {
 					minHeight: '200px',
 					// display: 'block',
 					// justifyContent: 'center',
-					border: '1px solid red',
+					// border: '1px solid red',
 				}}
 			>
 				<H5>Skills</H5>
