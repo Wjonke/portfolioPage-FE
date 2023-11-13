@@ -8,7 +8,7 @@ const SkillCard = (props) => {
 			className='card-image small'
 			style={
 				{
-					// width: '100%',
+					// maxWidth: '200px',
 					// height: 'auto',
 					// display: 'flex',
 					// flexDirection: 'row',
@@ -20,13 +20,15 @@ const SkillCard = (props) => {
 		>
 			<div
 				className='card-image'
-				// style={{
-				// 	maxWidth: '95%',
-				// 	maxHeight: '95%',
-				// 	display: 'block',
-				// 	justifyContent: 'center',
-				// 	// border: '1px solid blue',
-				// }}
+				style={
+					{
+						// maxWidth: '95%',
+						// maxHeight: '95%',
+						// display: 'block',
+						// justifyContent: 'center',
+						// border: '1px solid blue',
+					}
+				}
 			>
 				<img
 					src={props.skill.imgUrl}
@@ -35,6 +37,7 @@ const SkillCard = (props) => {
 					style={{
 						width: '75px',
 						height: '75px',
+						margin: '1em',
 						// display: 'flex',
 						// flexDirection: 'column',
 						// justifyContent: 'center',
