@@ -3,12 +3,25 @@ import styled from 'styled-components';
 
 const Overview = () => {
 	return (
-		<div className=' '>
+		<div
+			className=' '
+			style={{
+				border: '1px solid red',
+				display: 'flex',
+				flexDirection: 'row',
+				// width: '100%',
+				// margin: '1em',
+				justifyContent: 'center',
+				alignItems: 'center',
+			}}
+		>
 			<P
 				style={{
-					paddingLeft: '4em',
-					paddingRight: '4em',
+					maxWidth: '100%',
+					paddingLeft: '4.5em',
+					paddingRight: '4.5em',
 					textAlign: 'justify',
+					border: '1px solid blue',
 				}}
 			>
 				I am a full-stack web developer with 4 years’ experience within
