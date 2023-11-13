@@ -23,18 +23,18 @@ export const projects = [
 		techStack: 'Jcink-platform, HTML, CSS, JavaScript',
 		role: 'I was responsible, along with my teammate, for the Design and Development of this site per our clients specifications',
 	},
-	{
-		id: 3,
-		name: 'Fotograph-Template',
-		deployed_url: 'https://fotographmarketing-template.netlify.app',
-		code_url: 'https://github.com/Wjonke/art-portfolio-UI-Wes-Jonke',
-		img_url:
-			'https://res.cloudinary.com/wjonke/image/upload/v1587395324/SkillsPng/React_pxd2wf.png',
-		description:
-			'This version of my marketing page for our artist portfolio site was implemented using a HTML5UP Template.',
-		techStack: 'HTML5up, HTML, CSS, JavaScript',
-		role: 'Design and develop a marketing site for our photographers social media and portfolio site',
-	},
+	// {
+	// 	id: 3,
+	// 	name: 'Fotograph-Template',
+	// 	deployed_url: 'https://fotographmarketing-template.netlify.app',
+	// 	code_url: 'https://github.com/Wjonke/art-portfolio-UI-Wes-Jonke',
+	// 	img_url:
+	// 		'https://res.cloudinary.com/wjonke/image/upload/v1587395324/SkillsPng/React_pxd2wf.png',
+	// 	description:
+	// 		'This version of my marketing page for our artist portfolio site was implemented using a HTML5UP Template.',
+	// 	techStack: 'HTML5up, HTML, CSS, JavaScript',
+	// 	role: 'Design and develop a marketing site for our photographers social media and portfolio site',
+	// },
 	{
 		id: 4,
 		name: 'Fotograph-NoTemplate',

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 import OverviewContainer from '../../home/OverviewContainer';
@@ -16,11 +16,22 @@ const MainView = (props) => {
 					<OverviewContainer />
 					<div className='divider'></div>
 				</div>
-				<div className=' col s12 l6 '>
+				<div
+					className=' col s12 '
+					style={{
+						display: 'flex',
+						flexDirection: 'row',
+						// width: '100%',
+						// margin: '1em',
+						justifyContent: 'center',
+						alignItems: 'center',
+						border: '1px solid green',
+					}}
+				>
 					{/* pass skills state down to child */}
 					<SkillContainer skills={skills} />
 				</div>
-				<div className=' col s12 l6'>
+				<div className=' col s12 '>
 					{/* pass projects state down to child and spread in props*/}
 					<ProjectContainer projects={projects} />
 				</div>

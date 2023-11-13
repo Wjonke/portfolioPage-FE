@@ -9,11 +9,11 @@ export const skills = [
 		name: 'JavaScript',
 		imgUrl: 'https://res.cloudinary.com/wjonke/image/upload/v1587394108/JS_yyhsbn.jpg',
 	},
-	{
-		id: 3,
-		name: 'Python',
-		imgUrl: 'https://res.cloudinary.com/wjonke/image/upload/v1587395324/SkillsPng/Python_tcvfk2.png',
-	},
+	// {
+	// 	id: 3,
+	// 	name: 'Python',
+	// 	imgUrl: 'https://res.cloudinary.com/wjonke/image/upload/v1587395324/SkillsPng/Python_tcvfk2.png',
+	// },
 	{
 		id: 4,
 		name: 'HTML',
@@ -29,11 +29,11 @@ export const skills = [
 		name: 'React',
 		imgUrl: 'https://res.cloudinary.com/wjonke/image/upload/v1587395324/SkillsPng/React_pxd2wf.png',
 	},
-	{
-		id: 7,
-		name: 'React + Hooks & Context ',
-		imgUrl: 'https://res.cloudinary.com/wjonke/image/upload/v1587408364/SkillsPng/reactContextHooks_kty7cm.jpg',
-	},
+	// {
+	// 	id: 7,
+	// 	name: 'React + Hooks & Context ',
+	// 	imgUrl: 'https://res.cloudinary.com/wjonke/image/upload/v1587408364/SkillsPng/reactContextHooks_kty7cm.jpg',
+	// },
 	{
 		id: 8,
 		name: 'Redux',
@@ -93,5 +93,10 @@ export const skills = [
 		id: 19,
 		name: 'Netlify',
 		imgUrl: 'https://res.cloudinary.com/wjonke/image/upload/v1587394108/Netlify_gsqwvv.jpg',
+	},
+	{
+		id: 20,
+		name: 'Vercel',
+		imgUrl: 'https://res.cloudinary.com/wjonke/image/upload/v1699909934/SkillsPng/io29nmvaqkbjlxy9djus.png',
 	},
 ];

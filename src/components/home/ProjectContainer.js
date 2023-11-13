@@ -4,7 +4,7 @@ import Zoom from 'react-reveal/Zoom';
 import styled from 'styled-components';
 
 const ProjectContainer = (props) => {
-	console.log(props.projects);
+	// console.log(props.projects);
 	return (
 		<div id='projects' className='center-align'>
 			<Zoom>

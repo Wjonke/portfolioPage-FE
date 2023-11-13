@@ -1,21 +1,34 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Overview = () => {
-  return (
-    <div className=" center-align">
-      <P style={{ paddingLeft: "3em", paddingRight: "3em" }}>
-        I am a Full-stack Web Developer with experience using JavaScript,
-        Python, HTML, CSS, React, NodeJS with Express, algorithms, data
-        structures and testing. Previously, I was a Senior Project Manager for a
-        low-voltage security company. I also carry a GA low-voltage license.
-      </P>
-    </div>
-  );
+	return (
+		<div className=' '>
+			<P
+				style={{
+					paddingLeft: '4em',
+					paddingRight: '4em',
+					textAlign: 'justify',
+				}}
+			>
+				I am a full-stack web developer with 4 years’ experience within
+				the JavaScript/NodeJS framework. I have experience working with
+				NodeJS with Express, ReactJS and vanilla HTML, CSS, and
+				JavaScript, as well as AWS and Azure services. I am also an
+				experienced Project Manager overseeing both digital and physical
+				security projects. I enjoy breaking down complex needs into
+				actionable tasks, while communicating with stakeholders along
+				way, acting as a bridge between teams, to ensure their vision is
+				realized, realistically and accurately. I also enjoy fishing,
+				gardening, fermentation projects, and I have a real soft spot
+				for rescue animals.
+			</P>
+		</div>
+	);
 };
 const P = styled.p`
-  font-family: "Ubuntu", sans-serif;
-  font-size: 1.25rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.25rem;
 `;
 // const P = styled.p`
 //   font-family: "Roboto", sans-serif;
