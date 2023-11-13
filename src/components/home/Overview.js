@@ -6,7 +6,7 @@ const Overview = () => {
 		<div
 			className=' '
 			style={{
-				border: '1px solid red',
+				// border: '1px solid red',
 				display: 'flex',
 				flexDirection: 'row',
 				// width: '100%',
@@ -21,7 +21,7 @@ const Overview = () => {
 					paddingLeft: '4.5em',
 					paddingRight: '4.5em',
 					textAlign: 'justify',
-					border: '1px solid blue',
+					// border: '1px solid blue',
 				}}
 			>
 				I am a full-stack web developer with 4 years’ experience within
