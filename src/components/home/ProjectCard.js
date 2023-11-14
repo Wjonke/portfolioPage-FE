@@ -4,53 +4,44 @@ import styled from 'styled-components';
 const Project = (props) => {
 	return (
 		<ProjectStyle>
-			<Card className='card'>
-				<div className='card-image waves-effect waves-block waves-light'>
+			<Card className='card activator'>
+				{/* <div className='card-image '>
 					<Img
 						className='activator'
 						src={props.project.img_url}
 						alt=''
 					/>
-				</div>
-				<div className='card-content'>
+				</div> */}
+				<div className='card-content  '>
 					<span className='left-align'>
 						<h5>{props.project.name}</h5>
-						<ul>
-							<li>
-								<Strong>Description: </Strong>
-								<p>{props.project.description}</p>
-							</li>
-							<br />
-							<span className='left-align'>
-								<li>
-									<StyledLink
-										className='card'
-										target='_blank'
-										rel='noopener noreferrer'
-										href={props.project.deployed_url}
-									>
-										To the site!
-									</StyledLink>
-								</li>
-								<br />
-								<li>
-									<StyledLink
-										className='card'
-										target='_blank'
-										rel='noopener noreferrer'
-										href={props.project.code_url}
-									>
-										To the code!
-									</StyledLink>
-								</li>
-								<br />
-								<li>
-									<StyledButton className=' activator  waves-effect waves-block waves-light '>
-										Click here for more info
-									</StyledButton>
-								</li>
-							</span>
-						</ul>
+
+						<Strong>Description: </Strong>
+						<p>{props.project.description}</p>
+
+						<br />
+						<span>
+							<StyledLink
+								className='card'
+								target='_blank'
+								rel='noopener noreferrer'
+								href={props.project.deployed_url}
+							>
+								Click to view site
+							</StyledLink>
+							<StyledLink
+								className='card'
+								target='_blank'
+								rel='noopener noreferrer'
+								href={props.project.code_url}
+							>
+								Click to view code
+							</StyledLink>
+						</span>
+						<br />
+						<StyledButton className=' activator  '>
+							Click here for more info
+						</StyledButton>
 					</span>
 				</div>
 
@@ -92,13 +83,13 @@ const Strong = styled.p`
 `;
 
 const Card = styled.div`
-	min-height: 75vh;
+	min-height: 35vh;
 `;
 
-const Img = styled.img`
-	padding: 4px;
-	border-bottom: solid 1px lightGray;
-`;
+// const Img = styled.img`
+// 	padding: 4px;
+// 	border-bottom: solid 1px lightGray;
+// `;
 
 const Div = styled.div`
 	display: flex;
@@ -110,9 +101,9 @@ const Div = styled.div`
 
 const StyledButton = styled.button`
 	color: black;
-
 	padding: 2%;
 	border: 1px solid lightGray;
+	margin-top: 1em;
 
 	&:hover {
 		border: 1px solid dodgerBlue;
@@ -128,6 +119,7 @@ const StyledLink = styled.a`
 	margin: 2%;
 	padding: 2%;
 	border: 1px solid lightGray;
+	white-space: nowrap;
 
 	&:hover {
 		border: 1px solid dodgerBlue;
